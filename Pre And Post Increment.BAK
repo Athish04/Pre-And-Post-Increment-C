@@ -1,0 +1,20 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+int a=7,b=5;
+clrscr();
+printf("\n\tPRE INCREMENT");
+printf("\nThe Value of a before increment is: %d",a);
+printf("\nThe Value of a at increment is: %d",++a);
+printf("\nThe Value of a after incrementing is: %d",a);
+printf("\nThe Value of a at 2nd increment is: %d",++a);
+printf("\nThe value of a after 2nd increment is: %d",a);
+printf("\n\tPOST INCREMENT");
+printf("\nThe Value of b before increment is: %d",b);
+printf("\nThe Value of b at increment is: %d",b++);
+printf("\nThe Value of b after increment is: %d",b);
+printf("\nThe Value of b at 2nd increment is: %d",b++);
+printf("\nThe Value of b after 2nd increment is: %d",b);
+getch();
+}
